@@ -1,7 +1,7 @@
 var express = require('express');
 var app = express();
 var path = require('path')
-var converter = require('./my-folder/converter'); 
+var converter = require('./converter'); 
 
     app.use(express.static(path.join(__dirname, 'views')));
 
